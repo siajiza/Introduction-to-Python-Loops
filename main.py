@@ -49,6 +49,33 @@ def loop_over_range():
 loop_over_range()
     
  
+# To Continue and Break in Python Loops with for
+
+usernames = [
+  'jon',
+  'tyrion',
+  'theon',
+  'cersei',
+  'sansa',
+]
+
+# Using continue
+
+for username in usernames:
+  if username == 'cersei':
+    print(f'Sorry, {username}, you are not allowed')
+    continue
+  else:
+    print(f'{username} is allowed')
+
+
+# Using break
+
+for username in usernames:
+  if username == 'cersei':
+    print(f'{username} was found at index {usernames.index(username)}')
+    break
+  print(username)
 
 
 

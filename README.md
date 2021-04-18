@@ -79,5 +79,18 @@ To Implement Python Loops for Lists, Tuples, and Dictionaries
         break
       print(username)
 
+# other example with break
 
+        def loop_and_break():
+            vegetables = ["onion", "broccoli", "apple", "spinich"]
+
+            for vegetable in vegetables:
+                if vegetable == 'apple':
+                    print(f'{vegetable} is not a vegetable')
+                    break
+                print(vegetables)
+
+            return vegetables
+
+        loop_and_break()
 
